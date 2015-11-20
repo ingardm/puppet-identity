@@ -71,7 +71,7 @@ define identity::user (
   $manage_home          = true,
   $home                 = undef,
   $home_perms_recursive = false,
-  $home_perms           = '0755',
+  $home_perms           = undef,
   $system               = false,
   $shell                = '/bin/bash',
   $ignore_uid_gid       = false,
